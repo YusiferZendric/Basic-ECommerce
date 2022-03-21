@@ -1,2 +1,2 @@
 # Basic-ECommerce
-Yet another nerdy e-commerce site made with flask 
+Yet another awful e-commerce site made with flask 
