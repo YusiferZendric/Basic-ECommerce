@@ -87,7 +87,7 @@ def success():
             message = f"Your order is placed successfully.\nProduct Name: {session['prod']}\nProduct code: {session['code']}\nProduct Price: {price} Rupees"
             server = smtplib.SMTP('smtp.gmail.com',587)
             server.starttls()
-            server.login("codeislife4896@gmail.com",'setuppcop')
+            server.login("<email>",'<password>')
             server.sendmail("codeislife4896@gmail.com", email,message)
         return render_template('success.html',order=True,product=session['prod'],data=mainData,code=session['code'],round=round)
 if __name__ == "__main__":
